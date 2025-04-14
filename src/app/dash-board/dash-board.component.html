@@ -1,0 +1,12 @@
+<!-- <div #box class="box">Animate Me!</div> -->
+
+<button (click)="ShowArr =! ShowArr">View Me</button>
+<ul *ngIf="ShowArr">
+    <h1 *ngFor="let item of ArrayList.users">
+     {{item.name}} his Address is {{item.address.city}}
+     
+    </h1>
+</ul>
+
+<!-- {{check | json}} -->
+<pre>{{ check | json }}</pre>

@@ -95,12 +95,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css",
+              "node_modules/boxicons/css/boxicons.min.css"
+
+
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "442c6283-b948-4859-a57c-36470eaf95f1"
   }
 }
